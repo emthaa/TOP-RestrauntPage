@@ -1,0 +1,184 @@
+:root{
+    --yellow: #FFC60B;
+    --green: #85AE85;
+    --light-blue: #0A95FF;
+    --dark-blue: #230AFF;
+    --purple: #7766FF;
+    --lilac: #AAA0FF;
+    --dark-orange: #df880a;
+    --chocolate: #c16a08;
+    --khaki: #ffde73; 
+    --honey: rgb(236,164,59);
+}
+
+head,body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+
+#content{
+    position: relative;
+    background-color: var(--khaki);
+    border-radius: 30px;
+    max-width: 810px;
+    padding: 55px;
+    margin: 0 auto;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background: url('641.jpg');
+    background-size: 100vw;
+    
+}
+
+
+#header{
+    background-color: var(--khaki);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+
+button{
+    border: none;
+    border-width: 1px 1px 0 1px;
+    border-style: solid solid none solid;
+    border-color: black black none black;
+    width: 100px;
+    font-weight: bold;
+    background-color: var(--khaki);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 15px;
+}
+
+#home-button{
+    background-color: var(--honey);
+}
+
+#homeTitle{
+    background-color: var(--yellow);
+    width: 600px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid var(--chocolate);
+    border-radius: 15px;
+}
+
+#homeTitleText{
+    font-weight: 900;
+}
+
+#bee,#bee1{
+    height: 50px;
+    width: 50px;
+}
+
+#bee{
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    rotate: 120deg;
+}
+
+#bee1{
+    position: absolute;
+    margin-right:475px ;
+    margin-top: 55px;
+}
+
+#goldilocks{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#review{
+    background-color: var(--yellow);
+    width: 450px;
+    height: 200px;
+    border: 15px solid var(--chocolate);
+    margin-top: 100px;
+    padding-top: 35px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#review_paragraph{
+    font-size: 18px;
+
+}
+#honeycomb{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 165px;
+    margin-bottom: 200px;
+}
+
+#dripping{
+    position: absolute;
+    margin-top: 45px;
+    margin-right: 240px;
+}
+
+@media (max-width : 644px) {
+    #content{
+        border-radius: 0px;
+    }
+    #homeTitle{
+        width: 300px;
+    }
+    #homeTitleText{
+        font-size: 16px;
+    }
+    #honeycomb{
+        height: 70px;
+        width: 70px;
+        margin-left: 115px;
+    }
+    #bee,#bee1{
+        height: 35px;
+        width: 35px;
+        position: absolute;
+    }
+    
+    #bee{
+        margin-left: 250px;
+        margin-bottom: 10px;
+        rotate: 100deg;
+    }
+    #bee1{
+        margin-left: 230px;
+        margin-bottom: 40px;
+    }
+    #review{
+        width: 300px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 250px;
+
+    }
+    #review_paragraph{
+        line-height: 1.4;
+    }
+    #goldilocks{
+        margin-top: 30px;
+    }
+}
