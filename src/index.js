@@ -3,7 +3,7 @@ import {loadHomePage,loadMenuPage,loadContactPage,clearContentPage,websiteLogic}
 
 
 
-loadHomePage()
+loadContactPage()
 
 document.querySelector('#home-button').onclick = loadHomePage
 document.querySelector('#menu-button').onclick = loadMenuPage
